@@ -30,19 +30,19 @@ const handler = async (m, { conn, usedPrefix: _p, command, isOwner, args }) => {
 
 	const defaultMenu = {
 		before: `
-┏━━━━━━━ ${conn.user.name}
+╭━━━〔 ${conn.user.name} 〕━━━⬣
 ┃ 👋 ${ucapan()}, %name
 ┃
 ┃ 📅 %week, %date
-┃ Uptime : %uptime
-┃ Users : %rtotalreg/%totalreg
-┗━━━━━━━━━━━
+┃ ⏱ Uptime: %uptime
+┃ 👥 Users: %rtotalreg/%totalreg
+╰━━━━━━━━━━━━⬣
 %readmore`.trim(),
 
-		header: '\n┏━━━━━━ %category ↓',
-        body: '┃ • %cmd %flags',
-        footer: '┗━━━━━━━━━━━━',
-        after: '',
+		header: '\n╭─〔 %category 〕',
+		body: '│ ◦ %cmd %flags',
+		footer: '╰────────────⬣',
+		after: '',
 	}
 
 	try {
