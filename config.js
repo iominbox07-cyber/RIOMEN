@@ -10,20 +10,20 @@ global.AIRich = AIRich;
 
 global.pairingNumber = 212786946506;
 global.owner = [
-  ['212717457920', 'noureddine Ouafy', true],
-  ['', 'Owner 2', true],
+  ['33759850405', 'KIM SUN OO (num¹)', true],
+  ['212773608927', 'KIM SUN OO (num²)', true],
 ];
 
-global.namebot = 'gaff ai';
-global.author = 'Noureddine ouafy';
-global.source = 'https://chat.whatsapp.com/Hp3R0WWD5G8Li9HKBU6fn3';
+global.namebot = 'RIOMEN';
+global.author = 'KIM SUN OO';
+global.source = 'https://chat.whatsapp.com/LwmZJdinFNi1ZVmDv4N51u';
 
 global.wait = 'Loading... | جاري الانتظار';
 global.eror = 'There is an error... | وقع خطأ';
 
 global.pakasir = {
 	slug: 'kilersbotz',
-	apikey: 'bWDO2M8GcfruzXscdKNQJC3vw8Y8PV13',
+	apikey: 'LwmZJdinFNi1ZVmDv4N51u',
 	expired: 30, //1 = 1menit. 30 = 30menit
 };
 
